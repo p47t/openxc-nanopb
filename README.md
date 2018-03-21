@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/p47r1ck7541/openxc-nanopb.svg?branch=master)](https://travis-ci.org/p47r1ck7541/openxc-nanopb)
+
 # What is this?
 
 This is a demonstration showing how to use Protocol Buffer in a Linux kernel module or typically a device driver.
