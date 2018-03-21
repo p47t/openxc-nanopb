@@ -1,7 +1,7 @@
 ccflags-y := -std=gnu99 -Wno-declaration-after-statement -I$(src) -DPB_SYSTEM_HEADER=\"pb_system.h\"
-EXTRA_CFLAGS := -I$(src)/nanopb
+EXTRA_CFLAGS := -I$(src)/nanopb -I$(src)/openxc
 
-PBSRCS := $(wildcard *.proto)
+PBSRCS := $(wildcard openxc/*.proto)
 PBOBJS := $(PBSRCS:.proto=.pb.o)
 
 obj-m += openxc.o
